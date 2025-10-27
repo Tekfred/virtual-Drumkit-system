@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import 'tailwindcss';
+
+
+    @theme {
+        --color-clifford: #404B69;
+      }
+
+      /* .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  } */
+   
+
+  .font-montserrat {
+   font-family: "Playfair Display", serif;
+
+  }
+
+
+
+  /* font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
