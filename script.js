@@ -10,7 +10,6 @@ for(let i = 0; i <clickDrumButton; i++){
 }
 
  
-
 document.addEventListener("keypress", function(event){
 
  makeSound(event.key);
