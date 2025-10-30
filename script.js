@@ -5,8 +5,21 @@ for(let i = 0; i <clickDrumButton; i++){
     document.querySelectorAll('.drum-btn')[i].addEventListener("click", function() {
     
        var buttonInnerHTML = this.innerHTML;
+       makeSound(buttonInnerHTML);  
+});
+}
 
-       switch (buttonInnerHTML){
+ 
+
+document.addEventListener("keypress", function(event){
+
+ makeSound(event.key);
+
+}) 
+
+function makeSound(key){
+
+   switch (key){
         case "w":
             var snare = new Audio('/media/sounds/snare.mp3');
             snare.play();
@@ -45,7 +58,5 @@ for(let i = 0; i <clickDrumButton; i++){
 
         default: console.log(buttonInnerHTML); 
        }
-});
 }
 
- 
